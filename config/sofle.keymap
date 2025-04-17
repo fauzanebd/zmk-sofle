@@ -50,7 +50,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp LA(LS(C_VOLUME_UP)) LA(LS(C_VOLUME_DOWN))>,
-                <&inc_dec_kp PG_UP PG_DN>;
+                <&inc_dec_kp LA(LS(C_BRIGHTNESS_INC)) LA(LS(C_BRIGHTNESS_DEC))>;
         };
 
         lower_layer {
